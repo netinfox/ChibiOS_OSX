@@ -2,5 +2,7 @@
 
 !*.xcodeproj/project.pbxproj
 *.xcodeproj/*/
-ch
 
+.dep/
+*.o
+ch

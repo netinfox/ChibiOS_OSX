@@ -13,6 +13,8 @@
 		984A2A9414B52F7D00000015 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		984A2A9514B5322200000015 /* os */ = {isa = PBXFileReference; lastKnownFileType = folder; name = os; path = ../../os; sourceTree = "<group>"; };
 		984A2A9614B5322200000015 /* test */ = {isa = PBXFileReference; lastKnownFileType = folder; name = test; path = ../../test; sourceTree = "<group>"; };
+		9887A54C14B56F7C002016EB /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = readme.txt; path = ../../readme.txt; sourceTree = "<group>"; };
+		9887A54D14B56F7C002016EB /* todo.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = todo.txt; path = ../../todo.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -27,12 +29,22 @@
 			name = Source;
 			sourceTree = "<group>";
 		};
-		98AB1E2E14B52C6D000795BD = {
+		9887A54A14B56F30002016EB /* ChibiOS */ = {
 			isa = PBXGroup;
 			children = (
 				984A2A9514B5322200000015 /* os */,
 				984A2A9614B5322200000015 /* test */,
+				9887A54C14B56F7C002016EB /* readme.txt */,
+				9887A54D14B56F7C002016EB /* todo.txt */,
+			);
+			name = ChibiOS;
+			sourceTree = "<group>";
+		};
+		98AB1E2E14B52C6D000795BD = {
+			isa = PBXGroup;
+			children = (
 				984A2A8F14B52F6800000015 /* Source */,
+				9887A54A14B56F30002016EB /* ChibiOS */,
 			);
 			sourceTree = "<group>";
 		};
@@ -50,7 +62,7 @@
 			dependencies = (
 			);
 			name = ch;
-			passBuildSettingsInEnvironment = 1;
+			passBuildSettingsInEnvironment = 0;
 			productName = ChibiOS_OSX;
 		};
 /* End PBXLegacyTarget section */
